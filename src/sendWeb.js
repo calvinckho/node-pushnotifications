@@ -5,7 +5,7 @@ const { WEB_METHOD } = require('./constants');
 const stringify = unless(is(String), JSON.stringify);
 
 const sendWebPush = async (regIds, data, settings) => {
-  const payload = stringify(data);
+  const payload = typeof data === 'string' ? stringify(data) : JSON.stringify({ notification: data } );
   const promises = regIds.map((regId) =>
     webPush
       .sendNotification(regId, payload, settings.web)
