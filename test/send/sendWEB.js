@@ -78,7 +78,7 @@ function sendOkMethodAsObject() {
     expect(regId).to.be.a('object');
     expect(regIds).to.include(regId);
     expect(message).to.be.a('string');
-    expect(message).to.equal(JSON.stringify(dataObject));
+    expect(message).to.equal(JSON.stringify({ notification: dataObject }));
     expect(settings).to.eql(webOptions.web);
     return Promise.resolve({
       statusCode: 200,

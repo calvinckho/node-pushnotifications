@@ -1,10 +1,10 @@
 {
-  "name": "node-pushnotifications",
+  "name": "@calvinckho/node-pushnotifications",
   "description": "A cross-platform push service for node.js",
   "version": "1.4.0",
   "author": {
-    "name": "AppFeel",
-    "email": "info@appfeel.com"
+    "name": "calvinckho",
+    "email": "ch235@cornell.edu"
   },
   "scripts": {
     "coveralls": "cat ./coverage/lcov.info | coveralls",
@@ -43,12 +43,12 @@
   ],
   "main": "index.js",
   "bugs": {
-    "url": "https://github.com/appfeel/node-pushnotifications",
-    "email": "info@appfeel.com"
+    "url": "https://github.com/calvinckho/node-pushnotifications",
+    "email": "ch235@cornell.edu"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/appfeel/node-pushnotifications.git"
+    "url": "https://github.com/calvinckho/node-pushnotifications.git"
   },
   "dependencies": {
     "@parse/node-apn": "3.1.0",
@@ -77,7 +77,7 @@
     "opn-cli": "5.0.0",
     "prettier": "2.0.5",
     "pretty-quick": "2.0.1",
-    "release-it": "13.6.2",
+    "release-it": "13.6.5",
     "sinon": "1.17.7",
     "sinon-chai": "3.5.0"
   },
