@@ -2,6 +2,8 @@
 
 A node.js module for interfacing with Apple Push Notification, Google Cloud Messaging, Windows Push Notification, Web-Push Notification and Amazon Device Messaging services.
 
+This package is based on appfeel's [node-pushnotifications](https://www.npmjs.com/package/node-pushnotifications). Web Push protocol is modified to send payload that can be parsed correctly by Angular Service Worker swPush.
+
 [![License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://npmjs.org/package/node-pushnotifications)
 [![NPM version](http://img.shields.io/npm/v/node-pushnotifications.svg?style=flat)](https://npmjs.org/package/node-pushnotifications)
 [![Downloads](http://img.shields.io/npm/dm/node-pushnotifications.svg?style=flat)](https://npmjs.org/package/node-pushnotifications)
@@ -25,7 +27,7 @@ A node.js module for interfacing with Apple Push Notification, Google Cloud Mess
 ## Installation
 
 ```bash
-npm install node-pushnotifications --save
+npm install @calvinckho/node-pushnotifications --save
 ```
 
 ## Requirements
